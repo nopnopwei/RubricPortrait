@@ -7,7 +7,7 @@ Inspired from this [video](https://www.youtube.com/watch?v=zgK_fg1cXvM) and this
 
 ## General Workflow
 
-The script is executable inside `rubric.ipynb` and can be easily executed by simply run the two code cells after replacing the `img_path`, `pixel_size` and `show_steps` in the second code cell. In addition, please note that the script will only work on `.PNG` files, and that the smaller `pixel_size` will mean better portrait quality, but at the same time, require more cubes to build the portrait.
+The script is executable inside `rubric.ipynb` and can easily be executed by simply running the two code cells after replacing the `img_path`, `pixel_size` and `show_steps` in the second code cell. In addition, please note that the script will only work on `.PNG` files, and that the smaller `pixel_size` will mean better portrait quality, but at the same time, require more cubes to build the portrait.
 
 ![](/img/ex2.png)
 
@@ -17,6 +17,6 @@ The original image is manipulated by using the [Pillow](https://github.com/pytho
 ![](/img/ex3.png)
 
 ## Limitation
-Due to the limited colors being utilized, it is recommended to have a clear contrast between the background and the person/object you are trying to focus. Otherwise the background will blend in as show in the example below.
+Due to the limited colors being utilized, it is recommended to have a clear color contrast between the background and the person/object you are trying to focus. The picture below is an example that shows the result of a poor contrast between the background and the character.
 
 ![](/img/ex4.png)
